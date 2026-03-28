@@ -1,0 +1,38 @@
+body {
+    background: radial-gradient(circle, #020617, #000);
+    color: white;
+    font-family: Arial;
+}
+
+/* CARD PREMIUM */
+.card {
+    background: rgba(0,0,0,0.6);
+    border: 1px solid rgba(0,255,150,0.3);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 20px rgba(0,255,150,0.2);
+}
+
+/* NEON */
+.neon {
+    color: #00ff9f;
+    text-shadow: 0 0 10px #00ff9f;
+}
+
+/* BOTÃO */
+.btn {
+    background: transparent;
+    border: 2px solid #00ff9f;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #00ff9f;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #00ff9f;
+    color: black;
+    box-shadow: 0 0 20px #00ff9f;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+
+<div class="container">
+<div>
+
+<h1>BOT TRADING ELITE</h1>
+
+<div onclick="go('basico')" class="card">
+<h2>Básico</h2>
+<p>R$97</p>
+</div>
+
+<div onclick="go('avancado')" class="card">
+<h2>Avançado</h2>
+<p>R$197</p>
+</div>
+
+<div onclick="go('premium')" class="card">
+<h2>Premium</h2>
+<p>R$497</p>
+</div>
+
+</div>
+</div>
+
+<script>
+function go(p){
+    window.location="/checkout?plano="+p;
+}
+</script>
+
+</body>
+</html>
